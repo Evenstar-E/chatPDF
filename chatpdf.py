@@ -21,7 +21,7 @@ st.set_page_config(page_title="ChatPDF",page_icon="🧊",layout="wide")
 
 con = pymysql.connect(
     host = "127.0.0.1",
-    port = 3306
+    port = 3306,
     user = "root",
     password = "2592t03081",
     database = "TESTDB",
