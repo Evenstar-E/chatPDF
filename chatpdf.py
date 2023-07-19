@@ -20,7 +20,7 @@ import tempfile
 st.set_page_config(page_title="ChatPDF",page_icon="🧊",layout="wide")
 
 con = pymysql.connect(
-    host = "localhost",
+    host = "127.0.0.1",
     user = "root",
     password = "2592t03081",
     database = "TESTDB",
